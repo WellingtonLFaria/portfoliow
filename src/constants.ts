@@ -52,9 +52,9 @@ export const projetos = [
     ),
     new Projeto(
         "Portfolio",
-        "Este portfolio que você está acessando neste exato momento",
+        "Este portfolio que você está acessando neste exato momento.",
         [
-            new Link("GitHub", "https://github.com/WellingtonLFaria/Portfolio")
+            new Link("GitHub", "https://github.com/WellingtonLFaria/portfoliow")
         ],
         [
             new Tecnologia("TypeScript", "bg-sky-500"),

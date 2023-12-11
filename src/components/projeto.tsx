@@ -9,7 +9,7 @@ export default function ProjetoComponent(props: { projeto: Projeto }) {
             <div>
                 {
                     props.projeto.links.map(link => {
-                        return (<a href={link.link} className="hover:text-blue-500 text-blue-700">{link.nome}</a>);
+                        return (<a href={link.link} target="_blank" className="hover:text-blue-500 text-blue-700">{link.nome}</a>);
                     })
                 }
             </div>
